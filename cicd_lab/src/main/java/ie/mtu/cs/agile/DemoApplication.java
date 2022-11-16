@@ -14,7 +14,7 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	String home() {
-		return "Spring is here!";
+		return "Spring is here! Edit";
 	}
 
 	public static void main(String[] args) {
